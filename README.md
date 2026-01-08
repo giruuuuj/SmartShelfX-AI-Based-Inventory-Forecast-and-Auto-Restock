@@ -60,7 +60,7 @@ To run **SmartShelf** locally, you’ll need to set up the **Backend**, **Databa
 1. Ensure you have **MySQL** or **MariaDB** running.  
 2. Create a new database named:
    ```sql
-   CREATE DATABASE smartshelf_db;
+   CREATE DATABASE inventdb;
    ```
 3. The Spring Boot application will automatically create all necessary tables (`users`, `products`, `sales`, `purchase_orders`, etc.) via Hibernate/JPA.
 
@@ -70,12 +70,12 @@ To run **SmartShelf** locally, you’ll need to set up the **Backend**, **Databa
 
 1. Navigate to the backend directory:
    ```bash
-   cd smartshelf-backend/
+   cd Inventory-Application-backend/
    ```
 
 2. Configure **application.properties**:
    ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/smartshelf_db
+   spring.datasource.url=jdbc:mysql://localhost:3306/inventdb
    spring.datasource.username=your_db_username
    spring.datasource.password=your_db_password
    spring.jpa.hibernate.ddl-auto=update
@@ -89,7 +89,7 @@ To run **SmartShelf** locally, you’ll need to set up the **Backend**, **Databa
    ```
 
    The backend should start on:  
-   👉 http://localhost:8080
+   👉 http://localhost:3000
 
 ---
 
@@ -97,7 +97,7 @@ To run **SmartShelf** locally, you’ll need to set up the **Backend**, **Databa
 
 1. Navigate to the frontend directory:
    ```bash
-   cd smartshelf-frontend/
+   cd invent-frontend/
    ```
 
 2. Install dependencies:

@@ -8,3 +8,4 @@
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/357d5395-6768-456d-bb3c-5fe580d9c7d4" />
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/bb9d5728-d392-417d-b80a-20b15f391621" />
+[Inventory-Management-System SmartShelfX.pptx](https://github.com/user-attachments/files/24484700/Inventory-Management-System.SmartShelfX.pptx)
